@@ -1,39 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Playfair+Display&family=Poppins:wght@100;300;400;700;900&display=swap');
 
-
-
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
-.header1{
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.intro {
+  font-family: 'Lobster Two', cursive;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.header1 {
   width: 100%;
   height: 4rem;
   background-color: #7D5E3F;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-.header2{
+.header2 {
   width: 100%;
   background-color: #ECECEC;
 }
 
-.banner{
+.banner {
   width: 100%;
 }
-.banner image{
+
+.banner image {
   object-fit: cover;
+}
+
+.bg_test {
+  width: 100%;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), radial-gradient(77.36% 256.97% at 77.36% 57.52%, rgb(239, 225, 175) 0%, rgb(195, 220, 250) 100%);
+}
+
+.rounded{
+  border-radius: 5%;
 }
 
 
 @media screen and (max-width: 767px) {
-  .header1{
-    display:none !important;
-
-  }
-  .header2{
-    background-color: #000;
+  .header1 {
+    display: none !important;
   }
 }

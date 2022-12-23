@@ -1,5 +1,5 @@
 <h1 align="center">SISTEMA DE GESTIÓN DE RESERVAS E INVENTARIOS</h1>
-![Logo del sistema](https://github.com/DiegoCorredor/SGRI--Proyecto-SW2/blob/main/Client/public/icon.png)
+![Logo del sistema] (https://github.com/DiegoCorredor/SGRI--Proyecto-SW2/blob/main/Client/public/icon.png)
 <p align="left"><img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"></p><hr>
 
 <h4 align="center">:construction: Proyecto en construcción :construction:</h4>
@@ -11,7 +11,7 @@ _Este proyecto es realizado para el Hotel Marquesa de Pinares de la ciudad de Ti
 
 - `Funcionalidad 1`: El sistema permite realizar una reservación en el hotel.
 - `Funcionalidad 2`: El sistema permite gestionar las reservas realizadas.
-- `Funcionalidad 2a`: Permite a los usuarios gestionar las reservas sin iniciar sesión, basta un código de seguridad
+- `Funcionalidad 2a`: Permite a los usuarios gestionar las reservas sin iniciar sesión, basta un código de seguridad.
 - `Funcionalidad 3`: El sistema permite a los usuarios administradores o empleados gestionar el inventario del hotel.
 
 ## 📁 Acceso al proyecto
