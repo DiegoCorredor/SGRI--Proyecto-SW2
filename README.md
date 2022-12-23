@@ -26,11 +26,28 @@ _Para trabajar con React Native, deberá comprender los fundamentos de JavaScrip
 **Importante tener instalado node.js**
 * Para instalarlo dirijase a [NodeJs official site](https://nodejs.org/es/download/)
 
+Para comprobar que se instaló bien, abra un cmd y ecriba
+```
+node --version
+```
+
+Para obtener todos los modulos ubiquese en la carpeta **Client** y digite en una terminal:
+```
+npm install
+```
+
+Luego para iniciar el proyecto en esa misma terminal puede digitar:
+```
+npm start
+```
+
 ## :wrench:Tecnologias utilizadas
 
-- `Front-end`: React 18.2. 
--`Base de datos`: MySQL 8. 
--`Tipografia`: Google Font API. 
--`Framework javascript`: PRIMEREACT como componentes nativos para React. 
--`Back-end`: TypeScript.
+- `Front-end`: React v18.2.
+- `NodeJs`: NodeJs v18.12.1.
+- `Gestor de paquetes`: Npm v8.19.2.
+- `Base de datos`: MySQL v8. 
+- `Tipografia`: Google Font API. 
+- `Framework javascript`: PRIMEREACT como componentes nativos para React. 
+- `Back-end`: TypeScript.
 
