@@ -20,6 +20,14 @@ body{
   background-color: #ECECEC;
 }
 
+.banner{
+  width: 100%;
+}
+.banner image{
+  object-fit: cover;
+}
+
+
 @media screen and (max-width: 767px) {
   .header1{
     display:none !important;
