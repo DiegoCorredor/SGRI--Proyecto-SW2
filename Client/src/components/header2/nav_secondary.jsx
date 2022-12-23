@@ -13,7 +13,7 @@ class nav_secondary extends Component {
             <img alt="logo" src={logo} height="90" className="mr-2 ml-3 mb-2"/>
         </div>;
         const end = <div>
-                    <Button label="Acerca de nosotros" className='p-button-info mr-4' />
+                    <Button label="Acerca de nosotros" className='p-button-info mr-4'/>
                     <Button label="Iniciar sesión" className='p-button-success' />
                  </div>
         return (

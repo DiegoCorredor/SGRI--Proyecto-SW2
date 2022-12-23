@@ -7,6 +7,16 @@ body {
   font-weight: 400;
 }
 
+.gray-color{
+  background-color: #ECECEC;
+}
+
+.alert-password{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
 h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
@@ -17,6 +27,11 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 2rem;
+}
+
+.subtitle{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
 }
 
 .intro {
