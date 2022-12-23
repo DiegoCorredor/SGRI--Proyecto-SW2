@@ -9,13 +9,16 @@ _Este proyecto es realizado para el Hotel Marquesa de Pinares de la ciudad de Ti
 
 ## :hammer:Funcionalidades del proyecto
 
-- `Funcionalidad 1`: El sistema permite realizar una reservación en el hotel.- `Funcionalidad 2`: El sistema permite gestionar las reservas realizadas.- `Funcionalidad 2a`: Permite a los usuarios gestionar las reservas sin iniciar sesión, basta un código de seguridad- `Funcionalidad 3`: El sistema permite a los usuarios administradores o empleados gestionar el inventario del hotel.
+- `Funcionalidad 1`: El sistema permite realizar una reservación en el hotel.
+- `Funcionalidad 2`: El sistema permite gestionar las reservas realizadas.
+- `Funcionalidad 2a`: Permite a los usuarios gestionar las reservas sin iniciar sesión, basta un código de seguridad
+- `Funcionalidad 3`: El sistema permite a los usuarios administradores o empleados gestionar el inventario del hotel.
 
-\## 📁 Acceso al proyecto
+## 📁 Acceso al proyecto
 
 **El proyecto está estrucuturado en 2 carpetas, en la primera está lo necesario para el Frontend y la segunda todo para el Backend.**
 
-\## 🛠️ Abre y ejecuta el proyecto
+## 🛠️ Abre y ejecuta el proyecto
 
 **Para la ejecución local del proyecto es necesario:**
 _Para trabajar con React Native, deberá comprender los fundamentos de JavaScript. Si es nuevo en JavaScript o necesita una actualización, puede sumergirse o repasar en Mozilla Developer Network._
@@ -25,5 +28,9 @@ _Para trabajar con React Native, deberá comprender los fundamentos de JavaScrip
 
 ## :wrench:Tecnologias utilizadas
 
-- `Front-end`: React 18.2. -`Base de datos`: MySQL 8. -`Tipografia`: Google Font API. -`Framework javascript`: PRIMEREACT como componentes nativos para React. -`Back-end`: TypeScript.
+- `Front-end`: React 18.2. 
+-`Base de datos`: MySQL 8. 
+-`Tipografia`: Google Font API. 
+-`Framework javascript`: PRIMEREACT como componentes nativos para React. 
+-`Back-end`: TypeScript.
 
