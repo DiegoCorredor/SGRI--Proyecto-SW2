@@ -1,5 +1,4 @@
 <h1 align="center">SISTEMA DE GESTIÓN DE RESERVAS E INVENTARIOS</h1>
-![Logo del sistema] (https://github.com/DiegoCorredor/SGRI--Proyecto-SW2/blob/main/Client/public/icon.png)
 <p align="left"><img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"></p><hr>
 
 <h4 align="center">:construction: Proyecto en construcción :construction:</h4>
@@ -16,7 +15,7 @@ _Este proyecto es realizado para el Hotel Marquesa de Pinares de la ciudad de Ti
 
 ## 📁 Acceso al proyecto
 
-**El proyecto está estrucuturado en 2 carpetas, en la primera está lo necesario para el Frontend y la segunda todo para el Backend.**
+**El proyecto está estructurado en 2 carpetas, en la primera está lo necesario para el Frontend y la segunda todo para el Backend.**
 
 ## 🛠️ Abre y ejecuta el proyecto
 
