@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 import Navgeneral from '../components/header/nav_general.jsx';
-import Navsecondary from '../components/header2/nav_secondary2.jsx';
-import Login from '../components/login/login.jsx';
+import Navsecondary from '../components/header2/nav_secondary.jsx';
+import Booking from '../components/booking/booking.jsx';
 import Footer from '../components/footer/footer.jsx';
 
-class login extends Component {
+class booking extends Component {
     state = {  }
     render() { 
         return (
             <div>
                 <Navgeneral/>
                 <Navsecondary/>
-                <Login/>
+                <Booking/>
                 <Footer/>
             </div>
         );
     }
 }
  
-export default login;
+export default booking;

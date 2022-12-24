@@ -13,7 +13,7 @@ class general extends Component {
                 <div className='vc_row wpb_row vc_row-fluid mkdf-section template-intro vc_custom_1620807383981 mkdf-content-aligment-left mkdf-grid-section'>
                     <img className='vc_single_image-img attachment-full' src={hotel} alt='' width="100%"/>
                 </div>
-                <div className='text-center' id='about-us'>
+                <div className='text-center'>
                     <h1>Bienvenidos</h1>
                     <p className='intro'>Un espacio turístico que brinda servicio de hospedaje a visitantes tanto nacionales como de otros 
                                 países, se caracteriza por ser una casona que goza de arquitectura republicana con estilo señorial 

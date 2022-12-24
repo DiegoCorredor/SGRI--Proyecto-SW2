@@ -72,7 +72,7 @@ class login extends Component {
                                             para hacer el cambio de contraseña desde el sistema principal.<br/>Esperamos que se pueda resolver pronto.</p>
                                     </Dialog>
                                 </div>
-                                <Button label="Iniciar sesión" className="w-full p-3 text-xl p-button-success"></Button>
+                                <Button label="Iniciar sesión" className="w-full p-3 text-xl p-button-success"/>
                             </div>
                         </div>
                     </div>
