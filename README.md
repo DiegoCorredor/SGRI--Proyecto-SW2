@@ -1,5 +1,6 @@
 <h1 align="center">SISTEMA DE GESTIÓN DE RESERVAS E INVENTARIOS</h1>
-<p align="left"><img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"></p><hr>
+<p align="left"><img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"></p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/89a2e9e6-5d07-4ea4-9334-e7e53294f878/deploy-status)](https://app.netlify.com/sites/starlit-tarsier-d0459f/deploys)<hr>
 
 <h4 align="center">:construction: Proyecto en construcción :construction:</h4>
 
@@ -40,6 +41,24 @@ Luego para iniciar el proyecto en esa misma terminal puede digitar:
 npm start
 ```
 
+Para construir el proyecto en la terminal puede digitar:
+```
+npm run build 
+```
+
+Y para iniciar el despligue en local puede usar 2 comandos, primero realizar la instalación de serve:
+```
+npm install -g serve
+```
+```
+serve -s build 
+```
+
+Y si desea desplegarlo en otro puerto diferente:
+```
+serve -s build -l 4000
+```
+
 ## :wrench:Tecnologias utilizadas
 
 - `Front-end`: React v18.2.
@@ -50,3 +69,18 @@ npm start
 - `Framework javascript`: PRIMEREACT como componentes nativos para React. 
 - `Back-end`: TypeScript.
 
+## Comandos utiles para actualizar todos los paquetes via NPM
+
+Debe realizarse en el siguiente orden de comandos (preferiblemente en una shell con permisos de administrador), recuerde estar en la carpeta client
+```
+npm outdated
+```
+```
+npm install -g npm-check-updates
+```
+```
+ncu -u
+```
+```
+npm install
+```
