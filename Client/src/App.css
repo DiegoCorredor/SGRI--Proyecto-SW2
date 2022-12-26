@@ -5,10 +5,15 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  width: 100%;
 }
 
 .gray-color{
   background-color: #ECECEC;
+}
+
+.brown-color{
+  background-color: #B19170;
 }
 
 .alert-password{
@@ -57,7 +62,8 @@ h1 {
 .header3{
   width: 100%;
   background-color: #7D5E3F;
-  position: sticky;
+  position: relative;
+
 }
 
 .banner {

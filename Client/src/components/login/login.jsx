@@ -3,6 +3,7 @@ import { Button } from 'primereact/button';
 import { Password } from 'primereact/password';
 import { InputText } from 'primereact/inputtext';
 import { Dialog } from 'primereact/dialog';
+import { Link } from "react-router-dom";
 
 class login extends Component {
     constructor(props) {
@@ -51,10 +52,6 @@ class login extends Component {
     }
 
     render() {
-
-        function toDash(){
-            window.location='/dashboard';
-        }
         return (
             <div>
                 <div className=' flex align-items-center justify-content-center my-8'>
@@ -76,7 +73,7 @@ class login extends Component {
                                             para hacer el cambio de contraseña desde el sistema principal.<br/>Esperamos que se pueda resolver pronto.</p>
                                     </Dialog>
                                 </div>
-                                <Button label="Iniciar sesión" className="w-full p-3 text-xl p-button-success" onClick={toDash}/>
+                                <Link to='/dashboard' relative='/dashboard'><Button label="Iniciar sesión" className="w-full p-3 text-xl p-button-success"/></Link>
                             </div>
                         </div>
                     </div>
