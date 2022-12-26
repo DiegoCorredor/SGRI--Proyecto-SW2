@@ -54,6 +54,12 @@ h1 {
   background-color: #ECECEC;
 }
 
+.header3{
+  width: 100%;
+  background-color: #7D5E3F;
+  position: sticky;
+}
+
 .banner {
   width: 100%;
 }
