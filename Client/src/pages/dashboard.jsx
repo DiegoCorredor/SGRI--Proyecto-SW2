@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import NavBar from '../../src/components/navbarAdmin/navbarAdmin.jsx';
 import Options from '../../src/components/menuAdmin/menuAdmin.jsx';
 import Stats from '../../src/components/stadistics/stats.jsx';
-
-
+import { Button } from 'primereact/button';
+import { Link } from "react-router-dom";
 
 class dashboard extends Component {
     state = {  }
@@ -11,17 +11,13 @@ class dashboard extends Component {
         return (
             <div>
                 <NavBar/>
-                <div className='grid grid-nogutter'>
-                    <div className='col-2 brown-color'>
+                <div className='sidebar'>
+                    <div className='sidebar__sidebar'>
                         <Options/>
                     </div>
-                    <div className='col-10 gray-color'>
+                    <div className='sidebar__main'>
+                        <Link to="/dashboard" relative='/dashboard'><Button icon='pi pi-home' label='/Home' className='p-button-primary mt-2 ml-2'/></Link>
                         <Stats/>
-                        <Options/>
-                        <Options/>
-                        <Options/>
-                        <Options/>
-                        
                     </div>
                 </div>
             </div>

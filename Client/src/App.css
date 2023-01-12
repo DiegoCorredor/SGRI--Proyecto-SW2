@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Playfair+Display&family=Poppins:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 
 body {
   margin: 0;
@@ -14,6 +15,42 @@ body {
 
 .brown-color{
   background-color: #B19170;
+}
+
+nav{
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  background: #ECECEC;
+  width: 100%;
+  height: 90px;
+}
+
+.logo{
+  height: 70px;
+}
+
+.rigth{
+  float: right;
+  margin-top: 20px;
+}
+
+
+.sidebar {
+  display: flex;
+}
+
+.sidebar__sidebar {
+  width: 17%;
+  background-color: #B19170;
+  height: 100%;
+}
+
+.sidebar__main {
+  /* Take the remaining width */
+  flex: 1;
+
+  /* Make it scrollable */
 }
 
 .alert-password{
@@ -54,18 +91,6 @@ h1 {
   z-index: 1;
 }
 
-.header2 {
-  width: 100%;
-  background-color: #ECECEC;
-}
-
-.header3{
-  width: 100%;
-  background-color: #7D5E3F;
-  position: relative;
-
-}
-
 .banner {
   width: 100%;
 }
@@ -87,5 +112,11 @@ h1 {
 @media screen and (max-width: 767px) {
   .header1 {
     display: none !important;
+  }
+}
+
+@media screen and (max-width:372px){
+  .logo{
+    content: url("assets/logo_navbar.png");
   }
 }

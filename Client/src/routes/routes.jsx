@@ -29,6 +29,5 @@ export default createBrowserRouter([
     {
         path: '/dashboard',
         element: <Dashboard/>
-
     }
 ]) 

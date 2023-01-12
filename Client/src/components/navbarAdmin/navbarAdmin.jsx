@@ -10,7 +10,6 @@ class navbarAdmin extends Component {
     state = {  }
 
     render() {
-
         const name  = "Diego Alejandro";
     
         const start = <div className='brown-colorflex justify-content-between align-items-center'>
