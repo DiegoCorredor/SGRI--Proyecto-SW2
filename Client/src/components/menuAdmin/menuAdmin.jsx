@@ -11,7 +11,7 @@ class menuAdmin extends Component {
             {
                 label: 'Inventario',
                 items:[
-                    {label: 'Añadir elemento', icon: 'pi pi-plus', url: '/'},
+                    {label: 'Añadir elemento', icon: 'pi pi-plus', url: '/addelement'},
                     {label: 'Buscar elemento', icon: 'pi pi-search', url: '/'},
                     {label: 'Editar elemento', icon: 'pi pi-file-edit', url: '/'},
                     {label: 'Eliminar elemento', icon: 'pi pi-delete-left', url: '/'}

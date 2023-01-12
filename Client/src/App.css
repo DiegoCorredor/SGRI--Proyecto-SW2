@@ -26,6 +26,14 @@ nav{
   height: 90px;
 }
 
+footer{
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  position: flex;
+  width: 100%;
+}
+
 .logo{
   height: 70px;
 }
@@ -33,24 +41,6 @@ nav{
 .rigth{
   float: right;
   margin-top: 20px;
-}
-
-
-.sidebar {
-  display: flex;
-}
-
-.sidebar__sidebar {
-  width: 17%;
-  background-color: #B19170;
-  height: 100%;
-}
-
-.sidebar__main {
-  /* Take the remaining width */
-  flex: 1;
-
-  /* Make it scrollable */
 }
 
 .alert-password{
@@ -100,12 +90,37 @@ h1 {
 }
 
 .bg_test {
-  width: 100%;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), radial-gradient(77.36% 256.97% at 77.36% 57.52%, rgb(239, 225, 175) 0%, rgb(195, 220, 250) 100%);
+}
+
+.imgfooter{
+  height: 7rem;
 }
 
 .rounded{
   border-radius: 5%;
+}
+
+.nameblock{
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar__sidebar {
+  width: 15%;
+}
+
+.sidebar__main {
+  /* Take the remaining width */
+  flex: 1;
+
+  /* Make it scrollable */
+  overflow: auto;
 }
 
 
@@ -115,8 +130,28 @@ h1 {
   }
 }
 
-@media screen and (max-width:372px){
+@media screen and (max-width:425px){
   .logo{
     content: url("assets/logo_navbar.png");
+  }
+}
+
+@media screen and (max-width:425px){
+  .imgfooter{
+    height: 2rem;
+    visibility: hidden;
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:425px){
+  .flex-1{
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width:425px){
+  .nameblock{
+    display: none !important;
   }
 }

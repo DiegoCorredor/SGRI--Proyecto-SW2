@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import NavBar from '../../src/components/navbarAdmin/navbarAdmin.jsx';
 import Options from '../../src/components/menuAdmin/menuAdmin.jsx';
-import Stats from '../../src/components/stadistics/stats.jsx';
+import Body from '../../src/components/crud1/addelement.jsx';
 import { Button } from 'primereact/button';
 import { Link } from "react-router-dom";
 
-class dashboard extends Component {
+class addelement extends Component {
     state = {  }
     render() { 
         return (
@@ -17,7 +17,7 @@ class dashboard extends Component {
                     </aside>
                     <main className='sidebar__main'>
                         <Link to="/dashboard" relative='/dashboard'><Button icon='pi pi-home' label='/Home' className='p-button-primary mt-2 ml-2'/></Link>
-                        <Stats/>
+                        <Body/>
                     </main>
                 </div>
             </div>
@@ -25,4 +25,4 @@ class dashboard extends Component {
     }
 }
  
-export default dashboard;
+export default addelement;

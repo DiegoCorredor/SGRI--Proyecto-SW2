@@ -5,7 +5,7 @@ import Login from '../pages/login.jsx';
 import Booking from '../pages/booking.jsx';
 import Error404 from '../pages/error404.jsx';
 import Dashboard from '../pages/dashboard.jsx';
-
+import Addelement from '../pages/addelement.jsx';
 
 
 export default createBrowserRouter([
@@ -29,5 +29,9 @@ export default createBrowserRouter([
     {
         path: '/dashboard',
         element: <Dashboard/>
+    },
+    {
+        path:'/addelement',
+        element: <Addelement/>
     }
 ]) 
