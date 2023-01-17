@@ -1,0 +1,295 @@
+2023-01-16 20:36:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m94[0m - [91merror[0m[90m TS1136: [0mProperty assignment expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser },{} });
+[7m  [0m [91m                                                                                             ~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m97[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser },{} });
+[7m  [0m [91m                                                                                                ~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m98[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser },{} });
+[7m  [0m [91m                                                                                                 ~[0m
+[96msrc/services/auth.service.ts[0m:[93m30[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m30[0m     if (!findUser) throw new HttpException(409, `This email ${userData.mailUser} was not found`);
+[7m  [0m [91m        ~[0m
+[96msrc/services/auth.service.ts[0m:[93m30[0m:[93m20[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m30[0m     if (!findUser) throw new HttpException(409, `This email ${userData.mailUser} was not found`);
+[7m  [0m [91m                   ~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m39[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m39[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m41[0m   public async logout(userData: User): Promise<User> {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m41[0m   public async logout(userData: User): Promise<User> {
+[7m  [0m [91m         ~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m41[0m   public async logout(userData: User): Promise<User> {
+[7m  [0m [91m                              ~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m41[0m   public async logout(userData: User): Promise<User> {
+[7m  [0m [91m                                     ~[0m
+[96msrc/services/auth.service.ts[0m:[93m42[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m42[0m     if (isEmpty(userData)) throw new HttpException(400, "userData is empty");
+[7m  [0m [91m               ~[0m
+[96msrc/services/auth.service.ts[0m:[93m42[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m42[0m     if (isEmpty(userData)) throw new HttpException(400, "userData is empty");
+[7m  [0m [91m                         ~[0m
+[96msrc/services/auth.service.ts[0m:[93m48[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m48[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/auth.service.ts[0m:[93m50[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m50[0m   public createToken(user: User): TokenData {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m50[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m50[0m   public createToken(user: User): TokenData {
+[7m  [0m [91m                         ~[0m
+[96msrc/services/auth.service.ts[0m:[93m50[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m50[0m   public createToken(user: User): TokenData {
+[7m  [0m [91m                                ~[0m
+[96msrc/services/auth.service.ts[0m:[93m50[0m:[93m35[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m50[0m   public createToken(user: User): TokenData {
+[7m  [0m [91m                                  ~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m58[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m58[0m   public createCookie(tokenData: TokenData): string {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m58[0m:[93m32[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m58[0m   public createCookie(tokenData: TokenData): string {
+[7m  [0m [91m                               ~[0m
+[96msrc/services/auth.service.ts[0m:[93m58[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m58[0m   public createCookie(tokenData: TokenData): string {
+[7m  [0m [91m                                           ~[0m
+[96msrc/services/auth.service.ts[0m:[93m58[0m:[93m46[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m58[0m   public createCookie(tokenData: TokenData): string {
+[7m  [0m [91m                                             ~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m61[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m61[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m94[0m - [91merror[0m[90m TS1136: [0mProperty assignment expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser },{} });
+[7m  [0m [91m                                                                                             ~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m97[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser },{} });
+[7m  [0m [91m                                                                                                ~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m98[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser },{} });
+[7m  [0m [91m                                                                                                 ~[0m
+[96msrc/services/auth.service.ts[0m:[93m30[0m:[93m9[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m30[0m     if (!findUser) throw new HttpException(409, `This email ${userData.mailUser} was not found`);
+[7m  [0m [91m        ~[0m
+[96msrc/services/auth.service.ts[0m:[93m30[0m:[93m20[0m - [91merror[0m[90m TS1144: [0m'{' or ';' expected.
+
+[7m30[0m     if (!findUser) throw new HttpException(409, `This email ${userData.mailUser} was not found`);
+[7m  [0m [91m                   ~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m39[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m39[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m41[0m   public async logout(userData: User): Promise<User> {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m10[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m41[0m   public async logout(userData: User): Promise<User> {
+[7m  [0m [91m         ~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m41[0m   public async logout(userData: User): Promise<User> {
+[7m  [0m [91m                              ~[0m
+[96msrc/services/auth.service.ts[0m:[93m41[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m41[0m   public async logout(userData: User): Promise<User> {
+[7m  [0m [91m                                     ~[0m
+[96msrc/services/auth.service.ts[0m:[93m42[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m42[0m     if (isEmpty(userData)) throw new HttpException(400, "userData is empty");
+[7m  [0m [91m               ~[0m
+[96msrc/services/auth.service.ts[0m:[93m42[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m42[0m     if (isEmpty(userData)) throw new HttpException(400, "userData is empty");
+[7m  [0m [91m                         ~[0m
+[96msrc/services/auth.service.ts[0m:[93m48[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m48[0m   }
+[7m  [0m [91m  ~[0m
+[96msrc/services/auth.service.ts[0m:[93m50[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m50[0m   public createToken(user: User): TokenData {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m50[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m50[0m   public createToken(user: User): TokenData {
+[7m  [0m [91m                         ~[0m
+[96msrc/services/auth.service.ts[0m:[93m50[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m50[0m   public createToken(user: User): TokenData {
+[7m  [0m [91m                                ~[0m
+[96msrc/services/auth.service.ts[0m:[93m50[0m:[93m35[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m50[0m   public createToken(user: User): TokenData {
+[7m  [0m [91m                                  ~~~~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m58[0m:[93m3[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m58[0m   public createCookie(tokenData: TokenData): string {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m58[0m:[93m32[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m58[0m   public createCookie(tokenData: TokenData): string {
+[7m  [0m [91m                               ~[0m
+[96msrc/services/auth.service.ts[0m:[93m58[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m58[0m   public createCookie(tokenData: TokenData): string {
+[7m  [0m [91m                                           ~[0m
+[96msrc/services/auth.service.ts[0m:[93m58[0m:[93m46[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m58[0m   public createCookie(tokenData: TokenData): string {
+[7m  [0m [91m                                             ~~~~~~[0m
+[96msrc/services/auth.service.ts[0m:[93m61[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m61[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:863:19)
+    at F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-16 20:36:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m96[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser }, e. });
+[7m  [0m [91m                                                                                               ~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m98[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser }, e. });
+[7m  [0m [91m                                                                                                 ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m96[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser }, e. });
+[7m  [0m [91m                                                                                               ~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m98[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser }, e. });
+[7m  [0m [91m                                                                                                 ~[0m
+
+    at createTSError (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:863:19)
+    at F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-16 20:37:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m105[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser }, exclude:  });
+[7m  [0m [91m                                                                                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m105[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser }, exclude:  });
+[7m  [0m [91m                                                                                                        ~[0m
+
+    at createTSError (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:863:19)
+    at F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-16 20:38:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m115[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser }, attributes:{exclude:} });
+[7m  [0m [91m                                                                                                                  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m115[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser }, attributes:{exclude:} });
+[7m  [0m [91m                                                                                                                  ~[0m
+
+    at createTSError (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:863:19)
+    at F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-16 20:39:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m133[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser }, attributes: { exclude: {"passwordUser"] } });
+[7m  [0m [91m                                                                                                                                    ~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m138[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser }, attributes: { exclude: {"passwordUser"] } });
+[7m  [0m [91m                                                                                                                                         ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m133[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser }, attributes: { exclude: {"passwordUser"] } });
+[7m  [0m [91m                                                                                                                                    ~[0m
+[96msrc/services/auth.service.ts[0m:[93m29[0m:[93m138[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m29[0m     const findUser: User = await this.users.findOne({ where: { mailUser: userData.mailUser }, attributes: { exclude: {"passwordUser"] } });
+[7m  [0m [91m                                                                                                                                         ~[0m
+
+    at createTSError (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:863:19)
+    at F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\Universidad\2 semestre de 2022\Ingeniería de software 2\sgri\SGRI--Proyecto-SW2\Server\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-16 20:39:22 error: [POST] /login >> StatusCode:: 500, Message:: data and hash arguments required
