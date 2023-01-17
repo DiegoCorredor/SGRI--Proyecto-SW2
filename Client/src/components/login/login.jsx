@@ -3,7 +3,7 @@ import { Button } from 'primereact/button';
 import { Password } from 'primereact/password';
 import { InputText } from 'primereact/inputtext';
 import { Dialog } from 'primereact/dialog';
-import { Link } from "react-router-dom";
+import axios from 'axios';
 
 class login extends Component {
     constructor(props) {
@@ -15,11 +15,14 @@ class login extends Component {
             displayMaximizable: false,
             displayPosition: false,
             displayResponsive: false,
-            position: 'center'
+            position: 'center',
+            mailUser: '',
+            passwordUser: ''
         };
 
         this.onClick = this.onClick.bind(this);
         this.onHide = this.onHide.bind(this);
+        this.login = this.login.bind(this);
     }
 
     onClick(name, position) {
@@ -51,6 +54,11 @@ class login extends Component {
         );
     }
 
+    login(){
+        const {mailUser, passwordUser} = this.state;
+        axios.post('http://localhost:4000/login',{mailUser,passwordUser}).then((data) => console.log(data.data))
+    }
+
     render() {
         return (
             <div>
@@ -63,9 +71,9 @@ class login extends Component {
                             </div>
                             <div>
                                 <label htmlFor="email1" className="block text-900 text-xl font-medium mb-2">Correo electrónico</label>
-                                <InputText inputid="email1" type="text" placeholder="Email address" className="w-full md:w-30rem mb-5" required />
+                                <InputText inputid="email1" value={this.state.mailUser} onChange={(e) => this.setState({mailUser: e.target.value})} type="text" placeholder="Email address" className="w-full md:w-30rem mb-5" required />
                                 <label htmlFor="password1" className="block text-900 font-medium text-xl mb-2">Contraseña</label>
-                                <Password inputid="password1"  placeholder="Password" toggleMask className="w-full mb-5" inputClassName='w-full p-3 md:w-30rem' required/>
+                                <Password inputid="password1" value={this.state.passwordUser} onChange={(e) => this.setState({passwordUser: e.target.value})} placeholder="Password" toggleMask feedback={false} className="w-full mb-5" inputClassName='w-full p-3 md:w-30rem' required/>
                                 <div className="flex align-items-center justify-content-end mb-5 gap-5">
                                     <Button label="Olvide mi contraseña" icon="pi pi-external-link" onClick={() => this.onClick('displayBasic')} />
                                     <Dialog header="¿Problemas con tu contraseña?" visible={this.state.displayBasic} style={{ width: '50vw' }} footer={this.renderFooter('displayBasic')} onHide={() => this.onHide('displayBasic')}>
@@ -73,7 +81,7 @@ class login extends Component {
                                             para hacer el cambio de contraseña desde el sistema principal.<br/>Esperamos que se pueda resolver pronto.</p>
                                     </Dialog>
                                 </div>
-                                <Link to='/dashboard' relative='/dashboard'><Button label="Iniciar sesión" className="w-full p-3 text-xl p-button-success"/></Link>
+                                <Button label="Iniciar sesión" className="w-full p-3 text-xl p-button-success" onClick={this.login}/>
                             </div>
                         </div>
                     </div>
