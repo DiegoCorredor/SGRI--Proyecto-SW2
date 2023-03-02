@@ -1,8 +1,6 @@
 import { IsString, IsNumber, IsDate } from 'class-validator';
 
 export class CreateInventaryDto {
-    @IsNumber()
-    public idinventary: number;
 
     @IsString()
     public nameElement: string;

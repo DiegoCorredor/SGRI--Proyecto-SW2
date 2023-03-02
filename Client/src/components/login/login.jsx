@@ -57,7 +57,7 @@ class Login extends Component {
 
     login(){
         const {mailUser, passwordUser} = this.state;
-        axios.post('http://localhost:4000/login',{mailUser,passwordUser}).then((data) => this.props.navigate('/dashboard'))
+        axios.post('http://localhost:4000/login',{mailUser,passwordUser, }, {withCredentials: true}).then((data) => this.props.navigate('/dashboard'))
     }
 
     render() {

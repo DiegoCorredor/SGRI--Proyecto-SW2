@@ -1,11 +1,17 @@
 <h1 align="center">SISTEMA DE GESTIÓN DE RESERVAS E INVENTARIOS</h1>
-<p align="left"><img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"></p>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/89a2e9e6-5d07-4ea4-9334-e7e53294f878/deploy-status)](https://app.netlify.com/sites/starlit-tarsier-d0459f/deploys)<hr>
+<p align="left"><img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green"/></p>
 
-<h4 align="center">:construction: Proyecto en construcción :construction:</h4>
+
+## Status de la App
+![Netlify Status](https://api.netlify.com/api/v1/badges/b540e2c4-4349-45e4-9fbc-948ae71c726d/deploy-status) 
+
+* Ver [SGRI :: Home](https://jolly-phoenix-2ee534.netlify.app/)
+<p align="center">:construction: Proyecto en construcción :construction:</p>
 
 ## Descripción
 _Este proyecto es realizado para el Hotel Marquesa de Pinares de la ciudad de Tibabosa, Boyacá para tener una plataforma propia donde sus clientes puedan realizar reservaciones y además de ello, gestionarlas. También el sistema les brindará la posibilidad de tener y de gestionar un inventario de todos los implementos del hotel y lo requerido para su estado idoneao._
+
+
 
 ## :hammer:Funcionalidades del proyecto
 

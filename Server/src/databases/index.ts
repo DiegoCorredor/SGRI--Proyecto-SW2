@@ -3,6 +3,9 @@ import { NODE_ENV, DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_DATABASE } from '@
 import UserModel from '@models/users.model';
 import { logger } from '@utils/logger';
 import InventaryModel from '@/models/inventary.model';
+import TypeElementModel from '@/models/typeElement.model';
+import StatusesModel from '@/models/status.model';
+import DependenciesModel from '@/models/dependencies.model';
 
 const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
   dialect: 'mysql',
@@ -31,8 +34,13 @@ sequelize.authenticate();
 const DB = {
   Users: UserModel(sequelize),
   Inventary: InventaryModel(sequelize),
+  TypeElement: TypeElementModel(sequelize),
+  Statuses: StatusesModel(sequelize),
+  Dependencies: DependenciesModel(sequelize),
   sequelize, // connection instance (RAW queries)
   Sequelize, // library
 };
 
 export default DB;
+
+

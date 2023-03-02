@@ -6,6 +6,9 @@ import Booking from '../pages/booking.jsx';
 import Error404 from '../pages/error404.jsx';
 import Dashboard from '../pages/dashboard.jsx';
 import Addelement from '../pages/addelement.jsx';
+import Searchelement from '../pages/searchelement.jsx';
+import Editelement from '../pages/editelement.jsx';
+import Delelement from '../pages/delelement.jsx';
 
 export default createBrowserRouter([
     {
@@ -32,5 +35,17 @@ export default createBrowserRouter([
     {
         path:'/addelement',
         element: <Addelement/>
+    },
+    {
+        path:'/searchelement',
+        element: <Searchelement/>
+    },
+    {
+        path:'/editelement',
+        element: <Editelement/>
+    },
+    {
+        path:'/delelement',
+        element: <Delelement/>
     }
 ]) 

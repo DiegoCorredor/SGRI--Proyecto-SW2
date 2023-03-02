@@ -1,4 +1,3 @@
-import { hash } from 'bcrypt';
 import DB from '@databases';
 import { CreateInventaryDto } from '@dtos/inventary.dto';
 import { HttpException } from '@exceptions/HttpException';
